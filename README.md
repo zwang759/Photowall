@@ -1,10 +1,6 @@
-Quick Start 
+## Quick Start 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
@@ -29,6 +25,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-App Info 
+### App Info 
+
 A web application to display photos like a photo gallery wall
 Users can post photos by URLs, comment on photos, and remove photos and their comments
