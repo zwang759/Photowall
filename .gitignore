@@ -13,3 +13,4 @@ database/config.js
 
 .firebaserc
 .gitignore
+.firebase
