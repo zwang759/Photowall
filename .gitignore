@@ -10,6 +10,6 @@
 database/config.js
 
 /package-lock.json
-
+.idea
 .firebaserc
 .firebase
