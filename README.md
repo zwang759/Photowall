@@ -5,6 +5,6 @@ Used React to build frontend, and Firebase as backend.
 
 Deployed on Firebase.
 
-<h2>[Demo site](https://photowall-1d4d3.web.app) </h2>
+[Demo site](https://photowall-1d4d3.web.app)
 
 
