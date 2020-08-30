@@ -12,5 +12,4 @@ database/config.js
 /package-lock.json
 
 .firebaserc
-.gitignore
 .firebase
