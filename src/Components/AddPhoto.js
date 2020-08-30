@@ -1,11 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class AddPhoto extends Component {
+class AddPhoto extends React.Component {
 
     constructor() {
         super();
-        this.handleSubmit = this.handleSubmit.bind(this)
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
+
     handleSubmit(event) {
         event.preventDefault();
         const imageLink = event.target.elements.link.value;
@@ -15,28 +16,27 @@ class AddPhoto extends Component {
             description: description,
             imageLink: imageLink
         };
-        if (description && imageLink){
+        if (description && imageLink) {
             this.props.startAddingPost(post);
-            this.props.onHistory.push('/')
+            this.props.onHistory.push('/');
         }
 
     }
 
     render() {
         return (
-    <div>
-        <div className="form">
-          <form onSubmit={this.handleSubmit}> 
-               <input type ="text" placeholder="Link" name="link"/>
-               <input type ="text" placeholder="Desciption" name="description"/>
-               <button> Post </button>
-          </form>
-        </div>
-    </div>
-    )
+            <div>
+                <div className="form">
+                    <form onSubmit={this.handleSubmit}>
+                        <input type="text" placeholder="Link" name="link"/>
+                        <input type="text" placeholder="Desciption" name="description"/>
+                        <button> Post</button>
+                    </form>
+                </div>
+            </div>
+        );
     }
 }
 
 
-
-export default AddPhoto
+export default AddPhoto;
