@@ -1,8 +1,8 @@
-import React from 'react'
-import PhotoWall from './PhotoWall'
-import AddPhoto from './AddPhoto'
-import {Route, Link} from 'react-router-dom'
-import Single from './Single'
+import React from 'react';
+import PhotoWall from './PhotoWall';
+import AddPhoto from './AddPhoto';
+import {Link, Route} from 'react-router-dom';
+import Single from './Single';
 
 class Main extends React.Component {
 

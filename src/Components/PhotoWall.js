@@ -1,7 +1,7 @@
-import React from 'react'
-import Photo from './Photo'
-import PropTypes from 'prop-types'
-import {Link} from 'react-router-dom'
+import React from 'react';
+import Photo from './Photo';
+import PropTypes from 'prop-types';
+import {Link} from 'react-router-dom';
 
 //anchor tag, href attribute
 function PhotoWall(props) {

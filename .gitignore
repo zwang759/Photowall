@@ -1,15 +1,7 @@
-# dependencies
-/node_modules
-
-# production
-/build
-
-# misc
 .DS_Store
-
-database/config.js
-
-/package-lock.json
+build
+node_modules/
 .idea
-.firebaserc
 .firebase
+.gitignore
+package-lock.json

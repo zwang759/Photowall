@@ -1,4 +1,4 @@
-import {database} from '../database/config'
+import {database} from '../database/config';
 
 export function startAddingPost(post) {
     return (dispatch) => {
@@ -93,6 +93,3 @@ export function loadPosts(posts) {
     };
 
 }
-
-
-//adding post

@@ -1,5 +1,4 @@
-import _posts from '../data/posts'
-import {combineReducers} from 'redux'
+import {combineReducers} from 'redux';
 
 function comments(state = {}, action) {
     switch (action.type) {
@@ -19,6 +18,8 @@ function comments(state = {}, action) {
     }
 }
 
+
+const _posts = [];
 
 function posts(state = _posts, action) {
     switch (action.type) {
